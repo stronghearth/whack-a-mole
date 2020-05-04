@@ -30,8 +30,6 @@ function moveMole () {
     timerId = setInterval(randomSquare, 1000)
 }
 
-moveMole()
-
 function countDown () {
     currentTime--
     timeLeft.textContent = currentTime
@@ -43,3 +41,5 @@ function countDown () {
 }
 
 let timerId = setInterval(countDown, 1000)
+
+moveMole()

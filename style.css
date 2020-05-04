@@ -1,8 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Jost', sans-serif;
+}
+
 .square {
     width: 200px;
     height: 200px;
     border-style: solid;
     border-color: black;
+}
+
+.square:hover {
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+
+
+.scoreSection, .timerSection {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
 
 .grid {
@@ -12,6 +40,7 @@
     align-content: center;
     width: 618px;
     height: 618px;
+    background-color: #696969;
 }
 
 .mole {
